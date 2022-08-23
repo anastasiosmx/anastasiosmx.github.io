@@ -4,9 +4,9 @@ export const HeaderJobTitle = () => {
     return(
         <div className="job-title">
             <span className="job-specialty">
-                Frontend
+                FRONTEND
             </span>&nbsp;
-            Developer
+            DEVELOPER
         </div>
     );
 };
