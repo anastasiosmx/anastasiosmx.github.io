@@ -1,0 +1,19 @@
+.header-full-name {
+    display: flex;
+    justify-content: center;
+    background-color: #7289da;
+    margin-top: 30px;
+}
+
+.header-full-name > h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    letter-spacing: 10px;
+}
+
+.header-gt {
+    font-size: 40px;
+    color: #23272a;
+}

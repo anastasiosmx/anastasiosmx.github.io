@@ -1,9 +1,10 @@
 import './App.css';
+import { HeaderName } from "./Header/header-name";
 
 function App() {
   return (
     <div className="font-link">
-      <h1>Hello!</h1>
+      <HeaderName />
     </div>
   );
 }
