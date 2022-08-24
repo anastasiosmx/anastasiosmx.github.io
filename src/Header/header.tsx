@@ -1,8 +1,8 @@
 import { HeaderJobTitle } from "./header-job-title";
 import Typewriter from 'typewriter-effect';
-import "./header-name.css";
+import "./header.css";
 
-export const HeaderName = () => {
+export const Header = () => {
     return(
         <>
             <div className="header-full-name">
