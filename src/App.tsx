@@ -1,18 +1,19 @@
 import './App.css';
-import { Contact } from './Body/LeftPanel/contact';
+import { LeftPanel } from './Body/LeftPanel/leftPanel';
 import { Header } from "./Header/header";
 
 function App() {
   return (
     <div className="font-link">
-      <Header />
+      <div className="header">
+        <Header />
+      </div>
       <div className="body">
         <div className="left-panel">
-          <Contact />
+          <LeftPanel />
         </div>
         <div className="right-panel">
-          <h1>Right Panelfffffff fffffhdhgf dhdfhdfhdhgf dhdfhdfhdhg fdhdfhdfffff fffffffffffff fffff</h1>
-          <h2>hehehehehehehh</h2>
+          <h1>Right Panel</h1>
         </div>
       </div>
     </div>

@@ -1,7 +1,9 @@
+import "./contact.css";
+
 export const Contact = () => {
     return(
         <>
-        <h1>Contact Me! xffffffff fffdfdhdhgfdh dfhdfhdhgfdhdfhdfhdhgf dhdfhdfhdhgfdhdfhdfhdfh dfhffffffffffffffff</h1>
+        <h2><span className="cursor">&gt;</span> CONTACT</h2>
         </> 
     );
 };
