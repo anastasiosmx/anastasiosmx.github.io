@@ -3,6 +3,14 @@ body {
   color:#ffff;
 }
 
+.font-family-arimo {
+  font-family: 'Arimo', sans-serif;
+}
+
+.font-family-fira {
+  font-family: 'Fira Code', monospace;
+}
+
 .body {
   display: grid;
   grid-template-columns: 0.5fr 1fr;

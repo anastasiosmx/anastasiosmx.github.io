@@ -5,10 +5,10 @@ import { Header } from "./Header/header";
 function App() {
   return (
     <div className="font-link">
-      <div className="header">
+      <div className="header font-family-fira">
         <Header />
       </div>
-      <div className="body">
+      <div className="body font-family-arimo">
         <div className="left-panel">
           <LeftPanel />
         </div>
