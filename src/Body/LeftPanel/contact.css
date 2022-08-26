@@ -7,3 +7,17 @@
     align-items: center;
     margin-bottom: 15px;
 }
+
+.contact-label > a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-text {
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+.orange-text {
+    color: #ff914d;
+}
