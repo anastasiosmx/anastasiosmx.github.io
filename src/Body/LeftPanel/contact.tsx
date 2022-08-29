@@ -5,6 +5,11 @@ import { faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-
 import { faGitlab, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const Contact = () => {
+    const gitLabDomain: string="mexias";
+    const gitHubDomain: string="anastasiosmx";
+    const emailPrefix: string ="mx";
+    const emailBody: string = "anastasios";
+
     return(
         <>
         <h1 className="letters-spacing"><span className="cursor">&gt;</span>&nbsp;CONTACT</h1> 
@@ -21,7 +26,7 @@ export const Contact = () => {
             <span className="contact-text letters-spacing">
                 <span className="orange-text">
                 <Obfuscate email>
-                    mxanastasios@gmail.com
+                    {emailPrefix + emailBody + "@gmail.com"}
                 </Obfuscate>
                 </span>
             </span>
@@ -36,16 +41,30 @@ export const Contact = () => {
             <FontAwesomeIcon icon={faGitlab} fixedWidth size="lg" color="#ff914d" />
             <span className="contact-text letters-spacing">
                 <Obfuscate href="https://gitlab.com/a.mexias">
-                    gitlab.com/a.mexias
+                    gitlab.com/
                 </Obfuscate>
+            </span>
+            <span className="letters-spacing">
+                <span className="orange-text">
+                    a
+                </span>
+                .
+                <span className="orange-text">
+                    {gitLabDomain}
+                </span>
             </span>
         </div>
         <div className="contact-label">
             <FontAwesomeIcon icon={faGithub} fixedWidth size="lg" color="#ff914d" />
             <span className="contact-text letters-spacing">
                 <Obfuscate href="https://github.com/anastasiosmx">
-                    github.com/anastasiosmx
+                    github.com/
                 </Obfuscate>
+            </span>
+            <span className="letters-spacing">
+                <span className="orange-text">
+                    {gitHubDomain}
+                </span>
             </span>
         </div>
         </> 
