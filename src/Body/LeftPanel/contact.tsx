@@ -6,9 +6,16 @@ import { faGitlab, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const Contact = () => {
     const gitLabDomain: string="mexias";
+    const gitLabUrl:    string = "https://gitlab.com/a.mexias";
     const gitHubDomain: string="anastasiosmx";
-    const emailPrefix: string ="mx";
-    const emailBody: string = "anastasios";
+    const gitHubUrl:    string = "https://github.com/anastasiosmx";
+    const emailPrefix:  string ="mx";
+    const emailBody:    string = "anastasios";
+    const phoneCountryCode: string = "+30";
+    const phonePreFix: number = 697;
+    const phoneMainBody: number = 970;
+    const phoneEndBody: number = 8828;
+    
 
     return(
         <>
@@ -17,7 +24,7 @@ export const Contact = () => {
             <FontAwesomeIcon icon={faPhone} fixedWidth size="lg" color="#ff914d" />
             <span className="contact-text letters-spacing">
                 <Obfuscate tel>
-                    [GR] 697-970-8828
+                    {phoneCountryCode + " " + phonePreFix + "-" + phoneMainBody + "-" + phoneEndBody}
                 </Obfuscate>
             </span>
         </div>
@@ -40,7 +47,7 @@ export const Contact = () => {
         <div className="contact-label">
             <FontAwesomeIcon icon={faGitlab} fixedWidth size="lg" color="#ff914d" />
             <span className="contact-text letters-spacing">
-                <Obfuscate href="https://gitlab.com/a.mexias">
+                <Obfuscate href={gitLabUrl}>
                     gitlab.com/
                 </Obfuscate>
             </span>
@@ -57,7 +64,7 @@ export const Contact = () => {
         <div className="contact-label">
             <FontAwesomeIcon icon={faGithub} fixedWidth size="lg" color="#ff914d" />
             <span className="contact-text letters-spacing">
-                <Obfuscate href="https://github.com/anastasiosmx">
+                <Obfuscate href={gitHubUrl}>
                     github.com/
                 </Obfuscate>
             </span>
