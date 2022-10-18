@@ -1,0 +1,9 @@
+.empty-circle {
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 2px;
+    margin-left: 1px;
+    display: inline-block; 
+}
