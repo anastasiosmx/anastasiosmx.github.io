@@ -22,7 +22,7 @@ export const Contact = () => {
 
     return(
         <>
-            <h1 className="letters-spacing"><span className="cursor" onClick={contactVisibilityHandler}>&gt;</span>&nbsp;CONTACT</h1>
+            <h1 className="letters-spacing"><span className="visibility-hint cursor" onClick={contactVisibilityHandler}>&gt;</span>&nbsp;CONTACT</h1>
             {showContactInfo? 
                 <span> 
                     <div className="contact-label">
