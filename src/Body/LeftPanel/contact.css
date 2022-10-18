@@ -2,6 +2,11 @@
     color: #7289da;
 }
 
+.cursor:hover {
+    color: #ff914d;
+    cursor: pointer;
+}
+
 .letters-spacing{
     letter-spacing: 2px;
 }

@@ -5,3 +5,8 @@
 .cursor {
     color: #7289da;
 }
+
+.cursor:hover {
+    color: #ff914d;
+    cursor: pointer;
+}
