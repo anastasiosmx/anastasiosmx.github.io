@@ -1,5 +1,6 @@
 import './frameworks.css';
 import React from 'react';
+import { SkillsRating } from './skillsRating';
 
 export const Frameworks = () => {
     const [showFrameworks, setShowFrameworks] = React.useState(true);
@@ -12,7 +13,61 @@ export const Frameworks = () => {
         <>
         <h1 className="letters-spacing"><span className="cursor" onClick={frameworksVisibilityHandler}>&gt;</span>&nbsp;FRAMEWORKS</h1>
         {showFrameworks?
-            <h1>hello</h1>
+            <span>
+                <table className="letters-spacing">
+                    <tbody>
+                        <tr>
+                            <td>
+                                &#8226; Angular
+                            </td>
+                            <td>
+                                <SkillsRating rating={4} />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &#8226; React
+                            </td>
+                            <td>
+                                <SkillsRating rating={4} />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &#8226; Laravel
+                            </td>
+                            <td>
+                                <SkillsRating rating={3} />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &#8226; Django
+                            </td>
+                            <td>
+                                <SkillsRating rating={2} />
+                            </td>
+                        </tr>
+                        <hr className='framework-line-seperator'></hr>
+                        <tr>
+                            <td>
+                                &#8226; Bootstrap
+                            </td>
+                            <td>
+                                <SkillsRating rating={5} />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &#8226; Materialize
+                            </td>
+                            <td>
+                                <SkillsRating rating={3} />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </span>
             :
             null
         }
