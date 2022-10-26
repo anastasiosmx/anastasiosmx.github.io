@@ -10,7 +10,7 @@ export const SkillsRating = (props: any) => {
         <>
             {[...new Array(totalStars)].map((arr, index) => {
                 return index < activeStars ? 
-                <FontAwesomeIcon icon={faCircle} fixedWidth size="xs" color="#ff914d" /> : <span className='empty-circle'></span>;
+                <FontAwesomeIcon key={index} icon={faCircle} fixedWidth size="xs" color="#ff914d" /> : <span key={index} className='empty-circle'></span>;
             })}
         </>
     );
