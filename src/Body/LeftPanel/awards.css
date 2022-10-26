@@ -1,0 +1,24 @@
+.letters-spacing{
+    letter-spacing: 2px;
+}
+
+.cursor {
+    color: #7289da;
+}
+
+.cursor:hover {
+    color: #ff914d;
+    cursor: pointer;
+}
+
+.paragraph-title-deep-purple {
+    color: #7289da;
+}
+
+.orange {
+    color: #ff914d;
+}
+
+.bold {
+    font-weight: bold;
+}
