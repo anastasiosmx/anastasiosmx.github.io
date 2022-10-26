@@ -48,7 +48,11 @@ export const Frameworks = () => {
                                 <SkillsRating rating={2} />
                             </td>
                         </tr>
-                        <hr className='framework-line-seperator'></hr>
+                        <tr>
+                            <td>
+                                <hr className='framework-line-seperator'></hr>
+                            </td>
+                        </tr>
                         <tr>
                             <td>
                                 &#8226; Bootstrap

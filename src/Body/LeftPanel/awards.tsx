@@ -10,7 +10,7 @@ export const Awards = () => {
 
     return(
         <>
-            <h1 className="letters-spacing"><span className="cursor " onClick={awardsVisibilityHandler}>&gt;</span>&nbsp;AWARDS</h1> 
+            <h1 className="letters-spacing"><span className="cursor" onClick={awardsVisibilityHandler}>&gt;</span>&nbsp;AWARDS</h1> 
             {showAwards?
                 <>
                     <h3 className="paragraph-title-deep-purple">IEEE REGION 8 EXEMPLARY STUDENT BRANCH AWARD</h3>
