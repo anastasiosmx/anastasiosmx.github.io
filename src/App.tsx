@@ -1,5 +1,6 @@
 import './App.css';
 import { LeftPanel } from './Body/LeftPanel/leftPanel';
+import { RightPanel } from './Body/RightPanel/rightPanel';
 import { Header } from "./Header/header";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
           <LeftPanel />
         </div>
         <div className="right-panel">
-          <h1>Right Panel</h1>
+          <RightPanel />
         </div>
       </div>
     </div>
