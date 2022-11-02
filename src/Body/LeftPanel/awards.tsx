@@ -13,9 +13,22 @@ export const Awards = () => {
             <h1 className="letters-spacing"><span className="cursor" onClick={awardsVisibilityHandler}>&gt;</span>&nbsp;AWARDS</h1> 
             {showAwards?
                 <>
-                    <h3 className="paragraph-title-deep-purple">IEEE REGION 8 EXEMPLARY STUDENT BRANCH AWARD</h3>
+                    <h3 className="paragraph-title-deep-purple">IEEE REGION 8</h3>
+                    <h4 className="paragraph-title-deep-purple">EXEMPLARY STUDENT BRANCH AWARD</h4>
                     <p>
-                        IEEE Student Branch University of Thessaly <span className="orange bold">|</span> YEARS: 2017 - 2019
+                        IEEE Student Branch University of Thessaly &nbsp;
+                        <span className="orange bold">
+                            |
+                        </span> 
+                        <br/>
+                        <span className="orange bold">
+                            Years
+                        </span>
+                        :&nbsp;2017&nbsp;
+                        <span className="orange bold">
+                            -
+                        </span>
+                        &nbsp;2019
                     </p>
                 </>
                 :
