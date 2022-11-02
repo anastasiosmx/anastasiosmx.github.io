@@ -1,7 +1,9 @@
+import { Profile } from "./profile";
+
 export const RightPanel = () => {
     return(
         <>
-            <h1>Right Panel</h1>
+            <Profile />
         </>
     );
 };
