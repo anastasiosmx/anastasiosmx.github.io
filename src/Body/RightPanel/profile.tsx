@@ -10,7 +10,7 @@ export const Profile = () => {
 
     return(
         <>
-            <h1 className="letters-spacing"><span className="visibility-hint cursor" onClick={profileVisibilityHandler}>&gt;</span>&nbsp;PROFILE</h1>
+            <h1 className="letters-spacing"><span className="cursor" onClick={profileVisibilityHandler}>&gt;</span>&nbsp;PROFILE</h1>
             {showProfileInfo?
                 <span className="justify-text-full letters-spacing">
                     <p>
