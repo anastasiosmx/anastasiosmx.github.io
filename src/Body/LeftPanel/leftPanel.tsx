@@ -3,6 +3,7 @@ import { Skills } from "./skills";
 import { Frameworks } from "./frameworks";
 import { Awards } from "./awards";
 import { Military } from "./military";
+import { Hobbies } from "./hobbies";
 
 export const LeftPanel = () => {
     return(
@@ -12,6 +13,7 @@ export const LeftPanel = () => {
             <Frameworks />
             <Awards />
             <Military />
+            <Hobbies />
         </>
     );
 };
