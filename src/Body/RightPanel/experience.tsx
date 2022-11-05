@@ -1,4 +1,5 @@
 import React from "react";
+import { Iee } from "./ieee";
 import { LinkedBusiness } from "./linkedBusiness";
 import { Pasteur } from "./pasteur";
 import { VetPlatform } from "./vetplatform";
@@ -18,6 +19,7 @@ export const Experience = () => {
                     <LinkedBusiness />
                     <VetPlatform />
                     <Pasteur />
+                    <Iee />
                 </span>
                 :
                 null
