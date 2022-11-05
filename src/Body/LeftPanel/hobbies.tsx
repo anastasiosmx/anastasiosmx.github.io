@@ -11,7 +11,25 @@ export const Hobbies = () => {
         <>
             <h1 className="letters-spacing"><span className="cursor" onClick={hobbiesVisibilityHandler}>&gt;</span>&nbsp;HOBBIES</h1> 
             {showHobbies?
-                <h2>Test</h2>
+                <span>
+                    <ul>
+                        <li>
+                            Fencing
+                        </li>
+                        <li>
+                            Tennis
+                        </li>
+                        <li>
+                            Cycling
+                        </li>
+                        <li>
+                            Gaming
+                        </li>
+                        <li>
+                            D & D
+                        </li>
+                    </ul>
+                </span>
                 :
                 null
             }
