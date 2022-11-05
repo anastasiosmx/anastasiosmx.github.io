@@ -1,5 +1,6 @@
 import React from "react";
 import { LinkedBusiness } from "./linkedBusiness";
+import { VetPlatform } from "./vetplatform";
 
 export const Experience = () => {
     const [showExperienceInfo, setShowExperienceInfo] = React.useState(true);
@@ -12,7 +13,10 @@ export const Experience = () => {
         <>
          <h1 className="letters-spacing"><span className="cursor" onClick={experienceVisibilityHandler}>&gt;</span>&nbsp;EXPERIENCE</h1>
             {showExperienceInfo?
-                <LinkedBusiness />
+                <span>
+                    <LinkedBusiness />
+                    <VetPlatform />
+                </span>
                 :
                 null
             }
