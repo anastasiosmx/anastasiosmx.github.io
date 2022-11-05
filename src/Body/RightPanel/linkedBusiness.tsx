@@ -19,8 +19,8 @@ export const LinkedBusiness = () => {
                     <li className="justify-text-full letters-spacing">
                         Participated in the creation of company's web internal tool called "Back-Office".
                         "Back-Office" was developed in order to assist 
-                        company's data analyst team to asess, correct and deliver in time.
-                        The tool provides features such as memebers assignment to taks, coordinator evaluation and aprooval 
+                        company's data analyst team to assess, correct and deliver in time.
+                        The tool provides features such as memebers assignment to taks, coordinator evaluation and approval 
                         of user assesment and live update to company's central DB's and webportals.
                         "Back-Office" strives to  bring together all sectors of the company 
                         (from central DB's to data analysts to final customers) in order to offer the ability
