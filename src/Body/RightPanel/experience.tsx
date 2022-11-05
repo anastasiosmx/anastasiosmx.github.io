@@ -1,4 +1,5 @@
 import React from "react";
+import { LinkedBusiness } from "./linkedBusiness";
 
 export const Experience = () => {
     const [showExperienceInfo, setShowExperienceInfo] = React.useState(true);
@@ -11,9 +12,7 @@ export const Experience = () => {
         <>
          <h1 className="letters-spacing"><span className="cursor" onClick={experienceVisibilityHandler}>&gt;</span>&nbsp;EXPERIENCE</h1>
             {showExperienceInfo?
-                <h1>
-                    hello
-                </h1>
+                <LinkedBusiness />
                 :
                 null
             }
