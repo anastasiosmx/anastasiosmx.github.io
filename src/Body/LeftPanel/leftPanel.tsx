@@ -5,6 +5,7 @@ import { Awards } from "./awards";
 import { Military } from "./military";
 import { Hobbies } from "./hobbies";
 import { SoftSkills } from "./softSkills";
+import { Interests } from "./interests";
 
 export const LeftPanel = () => {
     return(
@@ -16,6 +17,7 @@ export const LeftPanel = () => {
             <Military />
             <Hobbies />
             <SoftSkills />
+            <Interests />
         </>
     );
 };
