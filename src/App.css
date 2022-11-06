@@ -29,10 +29,32 @@ body {
   grid-column: 1;
   overflow-wrap: break-word;
   margin-left: 50px;
+  position: relative;
+  animation: slide-in-screen-left-to-right 2s;
 }
 
 .right-panel {
   grid-column: 2;
   overflow-wrap: break-word;
   margin-right: 30px;
+  position: relative;
+  animation: slide-in-screen-right-to-left 2s;
+}
+
+@keyframes slide-in-screen-left-to-right {
+  0% {
+    left: -400px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes slide-in-screen-right-to-left {
+  0% {
+    right: -2000px;
+  }
+  100% {
+    right: 0px;
+  }
 }
