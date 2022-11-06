@@ -1,5 +1,4 @@
 import React from "react";
-import './awards.css';
 
 export const Awards = () => {
     const [showAwards, setshowAwards] = React.useState(true);

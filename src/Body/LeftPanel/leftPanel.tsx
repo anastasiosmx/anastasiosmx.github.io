@@ -1,3 +1,4 @@
+import "../panels.css";
 import { Contact } from "./contact";
 import { Skills } from "./skills";
 import { Frameworks } from "./frameworks";

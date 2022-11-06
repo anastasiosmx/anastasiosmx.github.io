@@ -1,5 +1,4 @@
 import React from "react";
-import "./skills.css";
 import { SkillsRating } from "./skillsRating";
 
 export const Skills = () => {

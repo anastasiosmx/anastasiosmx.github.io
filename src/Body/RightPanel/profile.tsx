@@ -1,5 +1,4 @@
 import React from "react";
-import "./profile.css";
 
 export const Profile = () => {
     const [showProfileInfo, setShowProfileInfo] = React.useState(true);
