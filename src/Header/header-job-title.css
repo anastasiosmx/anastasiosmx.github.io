@@ -9,3 +9,31 @@
 .job-specialty {
     color: #ff914d;
 }
+
+.download-icon {
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+.download-button {
+    text-decoration: none;
+    background-color: #23272a;
+    border: none;
+}
+
+.print-button-descr {
+    font-size: small;
+}
+
+@media print {
+    .download-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .download-icon {
+        display: none;
+    }
+}
