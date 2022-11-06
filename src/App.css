@@ -58,3 +58,46 @@ body {
     right: 0px;
   }
 }
+
+@media screen and (max-width: 830px) {
+  .header-gt{
+    font-size: 30px !important;
+  } 
+
+  .header-name {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 780px) {
+   .body {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .left-panel{
+      margin-left: 10px;
+   }
+
+   .right-panel {
+      margin-right: 5px;
+      margin-left: 5px;
+   }
+}
+
+@media screen and (max-width: 490px){
+  .job-title{
+    justify-content: baseline !important;
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 390px){
+  .header-gt{
+    font-size: 25px !important;
+  } 
+
+  .header-name {
+    font-size: 25px !important;
+  }
+}
