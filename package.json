@@ -1,6 +1,7 @@
 {
   "name": "amexias-web-cv",
   "version": "0.1.0",
+  "homepage":"https://anastasios-mexias.eu",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
