@@ -49,7 +49,7 @@
   }
 
 @media print {
-    .download-button {
+    .download-icon {
         display: none;
     }
 }
