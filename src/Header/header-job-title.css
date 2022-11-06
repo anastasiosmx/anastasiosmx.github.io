@@ -4,6 +4,8 @@
     margin-top: 10px;
     font-size: 25px;
     letter-spacing: 5px;
+    position: relative;
+    animation: slide-in-screen-top-to-bot 2s;
 }
 
 .job-specialty {
@@ -14,6 +16,8 @@
     display: flex;
     justify-content: end;
     margin-right: 30px;
+    position: relative;
+    animation: slide-in-screen-right-to-left 2s;
 }
 
 .download-button {
@@ -25,6 +29,24 @@
 .print-button-descr {
     font-size: small;
 }
+
+@keyframes slide-in-screen-top-to-bot {
+    0% {
+      top: -2000px;
+    }
+    100% {
+      top: 0px;
+    }
+}
+
+@keyframes slide-in-screen-right-to-left {
+    0% {
+      right: -150px;
+    }
+    100% {
+      right: 0px;
+    }
+  }
 
 @media print {
     .download-button {
