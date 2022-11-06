@@ -41,7 +41,7 @@
 
 @keyframes slide-in-screen-right-to-left {
     0% {
-      right: -150px;
+      right: -2000px;
     }
     100% {
       right: 0px;
