@@ -18,7 +18,7 @@ export const VetPlatform = () => {
                 <ul>
                     <li className="justify-text-full letters-spacing">
                         Participated in and presented at various
-                        healthcare conferences around Greece to
+                        healthcare professionals around Greece to
                         draw attention to the organization's
                         mission and values.
                     </li>
