@@ -2,4 +2,4 @@
 
 This webpage contains the cv information of Anastasios Mexias. 
 
-(c) Anastasios Mexias 2022
+(c) Anastasios Mexias 2023
