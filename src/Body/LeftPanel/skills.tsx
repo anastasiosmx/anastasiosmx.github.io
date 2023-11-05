@@ -28,7 +28,7 @@ export const Skills = () => {
                                     &#8226; JavaScript (ES6)
                                 </td>
                                 <td>
-                                    <SkillsRating rating={4} />
+                                    <SkillsRating rating={5} />
                                 </td>
                             </tr>
                             <tr>
@@ -44,7 +44,15 @@ export const Skills = () => {
                                     &#8226; PhP
                                 </td>
                                 <td>
-                                    <SkillsRating rating={4} />
+                                    <SkillsRating rating={3} />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &#8226; Ruby
+                                </td>
+                                <td>
+                                    <SkillsRating rating={2} />
                                 </td>
                             </tr>
                             <tr>
@@ -52,7 +60,7 @@ export const Skills = () => {
                                     &#8226; Java
                                 </td>
                                 <td>
-                                    <SkillsRating rating={3} />
+                                    <SkillsRating rating={2} />
                                 </td>
                             </tr>
                             <tr>
@@ -60,7 +68,7 @@ export const Skills = () => {
                                     &#8226; C
                                 </td>
                                 <td>
-                                    <SkillsRating rating={3} />
+                                    <SkillsRating rating={2} />
                                 </td>
                             </tr>
                             <tr>

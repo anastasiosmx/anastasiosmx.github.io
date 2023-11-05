@@ -7,9 +7,9 @@ export const HeaderJobTitle = () => {
         <>
             <div className="job-title">
                 <span className="job-specialty">
-                    FRONTEND
+                    SOFTWARE
                 </span>&nbsp;
-                DEVELOPER
+                ENGINEER
             </div>
             <span className="download-icon visibility-hint">
                 <span className="print-button-descr">

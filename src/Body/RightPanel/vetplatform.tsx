@@ -2,7 +2,7 @@ export const VetPlatform = () => {
     return(
         <>
             <span className="letters-spacing">
-                <h3 className="paragraph-title-deep-purple">SCIENTIFIC & TECHNICAL MANAGER</h3>
+                <h3 className="paragraph-title-deep-purple">PRODUCT MANAGER</h3>
                 <p>
                     VETPLATFORM.GR&nbsp;
                     <span className="orange bold">

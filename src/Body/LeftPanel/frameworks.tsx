@@ -18,18 +18,18 @@ export const Frameworks = () => {
                     <tbody>
                         <tr>
                             <td>
-                                &#8226; Angular
+                                &#8226; React
                             </td>
                             <td>
-                                <SkillsRating rating={4} />
+                                <SkillsRating rating={5} />
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                &#8226; React
+                                &#8226; Angular
                             </td>
                             <td>
-                                <SkillsRating rating={4} />
+                                <SkillsRating rating={3} />
                             </td>
                         </tr>
                         <tr>
@@ -37,7 +37,7 @@ export const Frameworks = () => {
                                 &#8226; Laravel
                             </td>
                             <td>
-                                <SkillsRating rating={3} />
+                                <SkillsRating rating={2} />
                             </td>
                         </tr>
                         <tr>
@@ -50,7 +50,31 @@ export const Frameworks = () => {
                         </tr>
                         <tr>
                             <td>
+                                &#8226; Nest.js
+                            </td>
+                            <td>
+                                <SkillsRating rating={2} />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &#8226; Ruby on Rails
+                            </td>
+                            <td>
+                                <SkillsRating rating={2} />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
                                 <hr className='framework-line-seperator'></hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &#8226; AntDesign
+                            </td>
+                            <td>
+                                <SkillsRating rating={5} />
                             </td>
                         </tr>
                         <tr>

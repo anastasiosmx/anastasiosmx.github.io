@@ -2,7 +2,7 @@ export const LinkedBusiness = () => {
     return(
         <>
             <span className="letters-spacing">
-                <h3 className="paragraph-title-deep-purple">FRONTEND DEVELOPER</h3>
+                <h3 className="paragraph-title-deep-purple">SOFTWARE ENGINEER</h3>
                 <p>
                     LINKED BUSINESS&nbsp;
                     <span className="orange bold">
@@ -12,7 +12,7 @@ export const LinkedBusiness = () => {
                     <span className="orange bold">
                         -
                     </span>
-                    &nbsp;Today
+                    &nbsp;MAR 2023
                     <br/>
                 </p>
                 <ul>
