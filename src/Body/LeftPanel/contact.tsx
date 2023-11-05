@@ -38,7 +38,7 @@ export const Contact = () => {
                     <div className="contact-label">
                         <FontAwesomeIcon icon={faLocationDot} fixedWidth size="lg" color="#ff914d" />
                         <span className="contact-text letters-spacing">
-                            Thessaloniki, Greece
+                            Greece
                         </span>
                     </div>
                     <div className="contact-label">
